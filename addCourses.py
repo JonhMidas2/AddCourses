@@ -7,13 +7,13 @@ from openai import OpenAI
 import time
 import os
 
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "sk-proj-WvSahLslDzboC4B0voTNT3BlbkFJKMjungzLGxEDp42mXobo"))
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", ""))
 thread = client.beta.threads.create()
-MATH_ASSISTANT_ID = 'asst_bdUlFPzq2hcyaFPDuvsyBBkm'
+MATH_ASSISTANT_ID = ''
 
-url = 'https://rateiogarantido.com/wp-admin/post.php?post=707&action=edit'
-email = 'rateiogarantido@gmail.com'
-pwd = 'q,4>6xVbw&#:+Cy'
+url = ''
+email = ''
+pwd = ''
 
 proxy = '45.127.248.127:5128'
 options = webdriver.ChromeOptions()
